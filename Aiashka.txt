@@ -1,0 +1,150 @@
+#include <iostream>
+using namespace std;
+#define PI 3.14159265
+#define Na = 6.02*pow(10,23)
+int main() {
+	int    i, j;
+	double  a, b, h, alpha;
+
+   cout << "Выберите предмет из списка ниже: ";
+   cout << "1) Алгебра.";
+   cout << "2) Геометрия.";
+   cout << "3) Химия.";
+   cout << "4) Физика.";
+   cout << "Введите число от 1 до 4:";
+   cin >> i; 
+   
+   if (i == 1) {
+		cout << "Выберите одну из формул ниже:";
+		cout << "1) (a+b)^2 = a^2 + 2ab + b^2 ";
+		cout << "2) (a-b)^2 = a^2 - 2ab + b^2 ";
+		cout << "3) a^2-b^2" = (a - b)(a + b) ";
+		cout << "Введите число от 1 до 3:";
+		cin >> j;
+		
+		if (j == 1) {
+			cout << "Введите число a:";
+			cin >> a;
+			cout << "Введите число b:";
+			cin >> b;
+			cout << a*a + 2*a*b + b*b; 
+		} else if (j == 2) {
+			cout << "Введите число a:";
+			cin >> a;
+			cout << "Введите число b:";
+			cin >> b;
+			cout << a*a - 2*a*b + b*b; 
+		} else if (j == 3) {
+			cout << "Введите число a:";
+			cin >> a;
+			cout << "Введите число b:";
+			cin >> b;
+			cout << (a-b)*(a+b);
+		} else {
+			cout << "Type a number from 1 to 3:";
+			cin >> j;
+		}
+		
+   } else if (i == 2) {
+		cout << "Выберите одну из формул ниже:";
+		cout << "1) S = a b sin alpha ";
+		cout << "2) S = (a h)/2 ";
+		cout << "3) S = ((a+b) h)/2 ";
+		cin >> j;
+		
+		if (j == 1) {
+			cout << "Введите число a:";
+			cin >> a;
+			cout << "Введите число b:";
+			cin >> b;
+			cout << "Введите число alpha:";
+			cin >> alpha;
+			cout <<a*b*sin (alpha*PI/180); 
+		} else if (j == 2) {
+			cout << "Введите число a:";
+			cin >> a;
+			cout << "Введите число h:";
+			cin >> h;
+			cout << (a*h)/2;		
+		} else if (j == 3) {
+			cout << "Введите число a:";
+			cin >> a;
+			cout << "Введите число b:";
+			cin >> b;
+			cout << "Введите число h:";
+			cin >> h;
+			cout << ((a+b)*h)/2;		
+		} else {
+			cout << "Type a number from 1 to 3:";
+			cin >> j;
+		}
+   } else if (i == 3) {
+		cout << "Выберите одну из формул ниже:";
+		cout << "1) n = N/Na ";
+		cout << "2) V = n Vm ";
+		cout << "3) W = Ar/Mr ";
+		cin >> j;
+		
+		if (j == 1) {
+			cout << "Введите число N:";
+			cin >> a;
+			cout <<a/Na; 		
+		} else if (j == 2) {
+			cout << "Введите число n:";
+			cin >> a;
+			cout << "Введите число Vm:";
+			cin >> b;
+			cout <<a*b; 
+		} else if (j == 3) {
+			cout << "Введите число Ar:";
+			cin >> a;
+			cout << "Введите число Mr:";
+			cin >> b;
+			cout <<a/b; 
+		} else {
+			cout << "Type a number from 1 to 3:";
+			cin >> j;
+		}
+   } else if (i == 4) {
+		cout << "Выберите одну из формул ниже:";
+		cout << "1) A = U I T ";
+		cout << "2) P = U I ";
+		cout << "3) Q = I R T ";
+		cin >> j;
+		
+		if (j == 1) {
+			cout << "Введите число U:";
+			cin >> a;
+			cout << "Введите число I:";
+			cin >> b;
+			cout << "Введите число T:";
+			cin >> h;
+			cout << "A равно"
+			cout <<a*b*h; 
+		} else if (j == 2) {
+			cout << "Введите число U:";
+			cin >> a;
+			cout << "Введите число I:";
+			cin >> b;
+			cout << "P равно"
+			cout <<a*b; 
+		} else if (j == 3) {
+			cout << "Введите число I:";
+			cin >> a;
+			cout << "Введите число R:";
+			cin >> b;
+			cout << "Введите число T:";
+			cin >> h;
+			cout << "Q равно"
+			cout <<pow(a,2)*b*h; 
+		} else {
+			cout << "Type a number from 1 to 3:";
+			cin >> j;
+		}
+   } else {
+		cout << "Type a number from 1 to 4:";
+		cin >> i;
+   }
+   
+   return 0;
+}

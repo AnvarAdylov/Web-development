@@ -1,0 +1,251 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;    
+}
+.container {
+    width: 100%;
+}
+.header {
+    height: 62px;
+    background: white;
+    padding-top: 30px;
+}
+.betw_head_foot {
+    background-color: #f4efeb;
+}
+.no_deco {
+    text-decoration: none;
+}
+.header_text {
+    color: #757575;
+    font-size: 38px;
+}
+.header_text:hover {
+    color: #307f86;
+}
+.highlighted {
+    font-weight: bold;
+}
+.nav_panel {
+    position: relative;
+    top:-40px;
+    text-align: right;
+    margin-left: 40%;
+}   
+.nav_bar {
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-right: 40px;
+}
+.menu_item {
+    padding-left: 50px;
+}
+.nav_link {
+    color: #5d7843;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav_link:hover {
+    color: #307f86;
+}
+.main_img {
+    width: 100%;
+}
+.content {
+    max-width: 1008px;
+    margin: 0 auto;
+}
+.welcome_card {
+    display: block; 
+}
+.box_welcome {
+    background-color: #008a9f;
+    position: relative;
+    margin: 0px;
+    padding: 15px 20px 15px 20px;
+    top: -180px;
+    width: 40%;
+    color: white;
+    text-align: left;
+}
+.first_half {
+    font-size: 34px;
+}
+.second_half {
+    font-size: 30px;
+}
+.items_photos {
+    display: block;
+}
+.item {
+    top: -120px;
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    max-width: 30%;  
+}
+.cover_text {
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    padding-left: 10%; 
+}
+.text_short {
+    padding-left: 40%; 
+}
+.caption {
+    font-size: 45px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.button {
+    text-align: center;
+    position: absolute;
+    width: 250px; 
+    height: 30px;
+    left: 70px;
+    top: 64px;
+    padding-top: 7px;
+}
+.button:hover {
+    border: 1px solid white;
+}
+.first_b {
+    background-color: #008a9f;
+}
+.second_b {
+    background-color: #6f8d45;
+}
+.third_b {
+    background-color: #ff7f6c;
+}
+.button_text {
+    font-size: 16px;
+    color: white;  
+}
+.arrow {
+    position: absolute;
+    border-color: white;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-radius: 60px;
+    margin-left: 5px;
+    padding-bottom: 2px;
+    bottom: 8px;
+}
+.double_sect {
+    position: relative;
+    top: -90px;
+    display: block;
+}
+.section {
+    vertical-align: top;
+    display: inline-block;
+    width: 45%;
+}
+.section_head {
+    font-size: 22px;
+    color: #009ab2;
+}
+.calendar_events {
+    list-style-type: none;
+    padding: 0;
+}
+.cal_d {
+    border-top: 0.1px solid black;
+
+}
+.events {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.date_event {
+    display: inline-block;
+    width: 10%;
+}
+.desc_event {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    padding-top: 10px;
+}
+.event_button {
+    display: inline-block;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #009ab2;
+    height: 25px;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.event_button:hover {
+    border: 1px solid white;
+}
+.date_font {
+    font-size: 16px;
+    color: #6f8d45;
+    text-align: center;
+}
+.numbers_font {
+    font-size: 32px;
+}
+.red_font {
+    font-size: 17px;
+    color: #ff7f6c;
+}
+.small_font {
+    font-size: 13px;
+}
+.second_sect {
+    padding-left: 20px;
+}
+.footer {
+    background-color: #515151;
+}
+.footer_block {
+    display: block;
+}
+.left_block {
+    vertical-align: top;
+    display: inline-block;
+    width: 60%;
+}
+.right_block {
+    vertical-align: top;
+    display: inline-block;
+    width: 35%;
+}
+.footer_text {
+    font-size: 20px;
+    color:#f3efee;
+}
+.copyright {
+    border-top: 0.1px solid white;
+}
+.copyright_text {
+    font-size: 12px;
+    color:#f3efee;
+    padding-bottom: 30px;
+}
+.event_button_f {
+    display: inline-block;
+    width: 48%;
+    border-radius: 5px;
+    background-color: #009ab2;
+    height: 25px;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.event_button_f:hover {
+    border: 1px solid white;
+}

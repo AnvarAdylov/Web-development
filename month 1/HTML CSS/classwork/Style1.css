@@ -1,0 +1,12 @@
+p {
+    background: beige;
+}
+h1 a {
+    text-decoration: none;
+}
+div {
+    background: lightsalmon; font-style: italic;
+}
+.weird {
+    background-color: aqua;
+}

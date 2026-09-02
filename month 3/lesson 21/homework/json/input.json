@@ -1,0 +1,73 @@
+[
+
+    {
+ 
+        "id":1,
+ 
+        "name":"John",
+ 
+        "lastname":"Doe",
+ 
+        "position":"engineer",
+ 
+        "begin_year":2000
+ 
+    },
+ 
+    {
+ 
+        "id":2,
+ 
+        "name":"Jane",
+ 
+        "lastname":"Doe",
+ 
+        "position":"lawyer",
+ 
+        "begin_year":2005
+ 
+    },
+ 
+    {
+ 
+        "id":3,
+ 
+        "name":"Sam",
+ 
+        "lastname":"Raynolds",
+ 
+        "position":"lawyer",
+ 
+        "begin_year":2010
+ 
+    },
+ 
+    {
+ 
+        "id":4,
+ 
+        "name":"Jack",
+ 
+        "lastname":"Johns",
+ 
+        "position":"engineer",
+ 
+        "begin_year":1998
+ 
+    },
+ 
+    {
+ 
+        "id":5,
+ 
+        "name":"Bilbo",
+ 
+        "lastname":"Baggins",
+ 
+        "position":"thief",
+ 
+        "begin_year":2941
+ 
+    }
+ 
+ ]

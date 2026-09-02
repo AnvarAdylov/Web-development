@@ -1,0 +1,38 @@
+Задание 4
+Напишите в текстовом документе, чему равны следующие булевы выражения. Сделайте последовательное упрощение к булевым величинам.
+
+False or (True or (2 < 3))
+
+(2 > 3) and (3 < 4) or True
+
+(not True or 5**2 != 1000) and not False
+
+not ((None == False) and (25 >= 25)) and ("123" == 123)
+
+
+Пример выполнения задания:
+1.
+False or (True or (2 < 3))
+False or (True or True)
+False or True
+True
+Задания желательно выполнять в уме. Проверить себя можно через интерактивную консоль Python. Основная цель задания - научиться понимать и вычислять логические выражения.
+2.
+(2 > 3) and (3 < 4) or True
+False and True or True
+False or True 
+True
+3.
+(not True or 5**2 != 1000) and not False
+(False or 5**2 != 1000) and not False
+(False or True) and not False
+(False or True) and True
+True and True 
+True
+4.
+not ((None == False) and (25 >= 25)) and ("123" == 123)
+not ((False) and (25 >= 25)) and ("123" == 123)
+not (False and True) and ("123" == 123)
+not False and  ("123" == 123)
+True and False
+False

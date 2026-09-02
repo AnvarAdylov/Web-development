@@ -1,0 +1,35 @@
+.logo {
+    padding: 0; margin: 0; max-width: 500px;
+}
+.container {
+    max-width: 1000px;
+}
+.navbar {
+    background-color: azure;
+}
+.nav-item {
+    display:inline-flex; 
+    margin-right: 30px;
+}
+.nav-item:link {
+    text-decoration: none;
+}
+.nav-item:visited {
+    color: red;
+    font-size: 18px;
+}
+.redacted {
+    color: red;
+}
+.tab1 {
+    border:1px solid #ccc;
+}
+p {
+    background: beige;
+}
+.picture1 {
+    max-width: 1000px;
+}
+a {
+    text-decoration: none;
+}

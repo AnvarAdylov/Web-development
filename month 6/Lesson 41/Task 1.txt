@@ -1,0 +1,16 @@
+website 1
+https://almaty-crm.attractor-school.com/profile/my-progress
+вывел 1 ip адрес в результатах при поптке подключения 
+получена страница с сообщением Your connection is not private 
+при попутке продолжить попал на страницу с ошибкой не найдено
+website 2 
+https://www.novelupdates.com/
+Попытка подключения напрямую через ip останолена 
+провайдером хостинга вебсайта cloudflare
+error 1003
+direct ip access is not allowed
+website 3
+https://pki.gov.kz/
+Your connection is not private 
+В итоге ни одна попытка подключиться через айпи не удалась так как
+показано  браузере это не очень безопасно в планах информации 

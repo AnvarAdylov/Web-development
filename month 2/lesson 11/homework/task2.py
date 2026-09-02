@@ -1,0 +1,10 @@
+print("Enter your name:")
+name = input()
+print("Enter your last name:")
+surname = input()
+print("When were you born?(year of birth)")
+year = int(input())
+print("Where are you from?")
+country  = input()
+birth = 2024-year
+print(" " + name + " " + surname + ". You are %i years old. You are living in "% (birth) + country + ".")

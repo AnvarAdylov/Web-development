@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+    background: #efe;
+
+}
+.box {
+    height: 20px;
+    width: 100px;
+}
+.wid200 {
+    width: 200px;
+}
+.height220 {
+    height: 220px;
+}
+.width150 {
+    width:150px;
+}
+.height50 {
+    height: 50px;
+}
+.width300 {
+    width: 300px;
+}
+.red {
+    background: red;
+    position:absolute;
+    right: 400px;
+    
+    
+}
+.green {
+    background: green;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.blue {
+    background: blue;
+    position: absolute;
+    margin: -30px 0 0 50px;
+}
+.gray {
+    background: gray;
+}
+.pink {
+    background: pink;
+    margin: 10px;
+}

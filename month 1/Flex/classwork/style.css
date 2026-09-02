@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    
+    background-color: beige;
+    border: 1px solid black;
+
+}
+/*
+.container {
+    display: flex;
+    width: 25%;
+    height:100px;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    padding: 50px 0;
+    background: aliceblue;
+    border: 1px solid black;
+}
+.container-wrapper {
+    display: flex;
+    width: 40%;
+    height:500px;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 50px 0;
+    background: aliceblue;
+    border: 1px solid black;
+}
+
+position
+1) flex-start
+2) center
+3) flex-end
+4)space-around
+5)space-between
+6)space-evenly
+
+||||||||||||||||||||||||||||
+flex wrap for page to not get destroyed
+*/

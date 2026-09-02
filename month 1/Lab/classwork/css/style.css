@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width:100%;
+    height:100%;
+}
+.content {
+    margin: 0 auto; 
+    max-width: 1080px;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;  
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 100%;
+    background-color: #775ba3;
+}
+.nav_bar_full {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav_bar_logo {
+    height: 100%;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+.nav_bar_content {
+    padding-left: 20px;
+    padding-top: 10px;
+
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav_bar_profile {
+    padding-top: 10px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+.nav_bar {
+    margin-left: 30px;
+    display: inline-flex;
+    list-style-type: none;
+}
+.nav_link {
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    width: 50px;
+    padding-right: 20px;
+}
+main {
+    height: 100%;
+}
+.page-title {
+    text-align: center;
+}
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+    opacity: 0;
+}
+.prev-button {
+    left: 10px;
+}
+.next-button {
+    right: 10px;
+}
+.caption_mid {
+    font-size: 40px;
+    color: #7e63a7;
+    text-align: center; 
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gray_area {
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px gray solid;
+}
+.text_segment {
+    text-align: center;
+    width: 100%;
+}
+.text_segment_text {
+    font-size: 23px;
+    color: #4b3f55;
+    margin-bottom: 30px;
+}
+.cards_segment {
+    width: 100%;
+}
+.cards {
+    display: inline-flex;
+}
+.card {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card_icon {
+    border: 2px solid;
+    border-radius: 100%;
+    height: 80px;
+    width:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card_text {
+    font-size: 13px;
+    color: #4b3f55;
+    margin: 0 auto;
+    width: 90%;
+}
+.socials_segment {
+    width: 100%;
+}
+.socials {
+    display:inline-flex;
+}
+.social_cards {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.social_card {
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+}
+h3 {
+    border-top: 1px #91c5a9 solid;
+    border-bottom: 3px #91c5a9 solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:  #91c5a9;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.text_height_card {
+    height: auto;
+}
+.under_text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #4b3f55 ;
+}
+.social_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    height: 50px;
+}
+.box_facebook {
+    background-color: #3b5998; 
+}
+.box_google {
+    background-color: #d14333;
+}
+.box_youtube {
+    background-color: #c70c0c  ;
+}
+.box_pinkball {
+    background-color: #ea4c88;
+}
+.box_twitter {
+    background-color: #00aced ;
+} 
+.portfolio_segment {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.image_port {
+    display: inline-flex;
+    width: 25%;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #54865d;
+}
+.footer_text {
+    font-size: 14px;
+    color: white;
+}

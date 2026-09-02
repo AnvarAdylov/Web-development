@@ -1,0 +1,21 @@
+Задание 1
+
+mkdir project1
+mkdir project2
+mkdir project3
+cd project1
+    mkdir subproject1_1
+    mkdir subproject1_2
+    cd ..
+cd project3 
+    mkdir subproject3_1
+    cd..
+
+Задание 2
+ 
+mkdir new_project1
+cd project1
+    mv subproject1_1 ../new_project1
+    mv subproject1_2 ../new_project1
+    cd..
+rm project1

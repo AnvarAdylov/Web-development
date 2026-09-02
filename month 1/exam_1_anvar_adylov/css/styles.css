@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid {
+    padding: 0;
+}
+body {
+    font-family: "Raleway", sans-serif;
+}
+.navbar-custom {
+    background-color: #5bbc2e;
+    padding: 0;
+}
+.font-c-green {
+    color:#5bbc2e;
+}
+.font-c-gray {
+    color:#8d8d8d;
+}
+.font-c-black {
+    color:black;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.nav-bar-text {
+    color:white;
+    font-weight: 600;
+    font-size: 13px;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border:  3px solid #5bbc2e;
+    border-radius: 100%;
+}
+.carousel-indicators .active {
+    background-color: #5bbc2e;
+}
+.borderless-transparent {
+    background-color: transparent;
+    border: 0;
+}
+.card-icon-1 {
+    background-image: url("../images/ic-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-icon-2 {
+    background-image: url("../images/ic-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-icon-3 {
+    background-image: url("../images/ic-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-icon-4 {
+    background-image: url("../images/ic-4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.square {
+    height:70px;
+    width:70px;
+}
+.small-text {
+    font-size: 12px;
+    color: #515151;
+    font-weight: 400(normal);
+}
+.arrow-marker {
+    list-style-image: url("../images/arrow.png");
+}
+.button-login {
+    background-color:#4fa826;
+    width:120px;
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+}
+.button-purple {
+    background-color: rgb(199, 53, 199);
+    font-weight: 800;
+    color: white;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.button-green {
+    background-color:#5bbc2e;
+    font-weight: 800;
+    color: white;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.button-yellow {
+    background-color: rgb(255, 251, 37);
+    font-weight: 800;
+    color: white;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.button-blue {
+    background-color: rgb(35, 118, 243);
+    font-weight: 800;
+    color: white;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.work-block-text {
+    font-size: 12px;
+    color: #4b4b4b;
+    font-weight: 800;
+}
+footer {
+    background-color: #141414;
+    font-size: 12px;
+    color: #e0e0e0;
+    font-weight: 600; 
+}
+.form1 {
+    max-width: 600px;
+    min-width: 300px;
+    background-color: #e0f2fc;
+}
+.form-row {
+    margin: 0 0 5px;
+    padding: 5px;   
+}
+.form-row label{
+    width: 200px;
+    display: inline-block;
+}
