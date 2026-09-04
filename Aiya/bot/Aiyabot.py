@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 # Initialize your bot with the API token
-bot = telebot.TeleBot("6896605296:AAFjcYSLdqj987Az6VXCAYpFLnZl7_wpDzA")
+bot = telebot.TeleBot("token")
 global_language = 'english'
 # Define a dictionary to store language greetings and menu options
 language_texts = {
