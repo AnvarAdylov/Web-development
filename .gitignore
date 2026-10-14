@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# Archives (folders are already committed, so zips are duplicates)
+*.zip
+*.rar
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
